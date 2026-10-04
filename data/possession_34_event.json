@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "video_name": "clip_vid",
+    "input_video_path": "/input/clip_vid.mp4",
+    "video_duration_seconds": 24.82,
+    "total_frames": 744,
+    "fps": 29.97,
+    "resolution": "1280x720",
+    "processing_timestamp": "2026-09-17T14:19:28.287648",
+    "created_at": "2026-10-01T08:56:12.912Z",
+    "previous_version_s3_link": "s3://thelios-nba-amplify/test-20260920-02fa038e-c9e5-45b1-80da-238828df2af7/jsons/possession_34/events/possession_34_event_json_v2.json",
+    "version": 3
+  },
+  "events": {
+    "passes": [
+      {
+        "id": 1,
+        "pass_start": 1,
+        "pass_end": 16,
+        "pass_type": null,
+        "deflected": null,
+        "start_game_clock": null,
+        "start_shot_clock": null,
+        "end_game_clock": null,
+        "end_shot_clock": null
+      },
+      {
+        "id": 2,
+        "pass_start": 164,
+        "pass_end": 180,
+        "pass_type": null,
+        "deflected": null,
+        "start_game_clock": null,
+        "start_shot_clock": null,
+        "end_game_clock": null,
+        "end_shot_clock": null
+      },
+      {
+        "id": 3,
+        "pass_start": 254,
+        "pass_end": 271,
+        "pass_type": null,
+        "deflected": null,
+        "start_game_clock": null,
+        "start_shot_clock": null,
+        "end_game_clock": null,
+        "end_shot_clock": null
+      }
+    ],
+    "shots": [],
+    "dribbles": [
+      {
+        "id": 1,
+        "dribble_start": 198,
+        "dribble_end": 209
+      },
+      {
+        "id": 2,
+        "dribble_start": 277,
+        "dribble_end": 290
+      }
+    ],
+    "jumpball": {
+      "present": false,
+      "jumpballs": []
+    },
+    "painttouch": {
+      "intervals": {
+        "1": 298
+      },
+      "is_painttouch": true
+    },
+    "ballreversal": {
+      "num_of_reversals": 0,
+      "reversals": {}
+    },
+    "ball_screening": {
+      "num_of_ball_screens": 0,
+      "ball_screens": {}
+    },
+    "inbound": {
+      "inbound_present": true,
+      "inbound_list": [
+        {
+          "start_frame": 1,
+          "end_frame": 18,
+          "line": "sideline",
+          "player_info": [
+            {
+              "role": "passer",
+              "track_id": 4
+            },
+            {
+              "role": "receiver",
+              "track_id": 8
+            }
+          ],
+          "clock_reading": {
+            "end_game_clock": null,
+            "end_shot_clock": null,
+            "start_game_clock": null,
+            "start_shot_clock": null
+          }
+        }
+      ]
+    }
+  },
+  "defense_style": "man to man",
+  "offense_styles": [
+    "Dribble Drive"
+  ]
+}
